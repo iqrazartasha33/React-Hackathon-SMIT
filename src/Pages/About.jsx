@@ -30,7 +30,7 @@ function About (){
   text-[#9B177E] mb-4">Why Choose Us?</h2>
   <p className="text-center text-gray-700 max-w-xl mx-auto">
     Easy chicken recipes, rich desi flavors,
-     and simple ingredients — all in one place!
+     and simple ingredients  all in one place!
   </p>
 </section>
   </>

@@ -7,7 +7,6 @@ import About from './Pages/About'
 import RecipeDetail from './Pages/RecipeDetail';
 
 function App() {
-
   return (
   <>
      <BrowserRouter>

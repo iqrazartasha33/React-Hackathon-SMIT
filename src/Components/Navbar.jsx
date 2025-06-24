@@ -44,7 +44,8 @@ function Navbar() {
               className="text-white px-4 block hover:text-[#FFAAAA]
                transition-colors duration-200 flex items-center gap-2"
             >
-              <IoPerson className="md:hidden" /> About
+              <IoPerson className="md:hidden" />
+               About
             </Link>
           </li>
         </ul>

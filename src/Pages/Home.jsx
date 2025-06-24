@@ -27,7 +27,7 @@ function Home() {
       <li key={item.idMeal}>
         <Link to={`/RecipeDetail/${item.idMeal}`}>
           <img src={item.strMealThumb} alt={item.strMeal} />
-       <h2 style={{ fontSize: "21px", fontWeight: "bold", color: "#555" }}>
+       <h2 style={{ fontSize: "22px", fontWeight: "bold", color: "#555" }}>
             {item.strMeal}</h2>
           <p>{item.strInstructions?.slice(0, 100)}...</p>
         </Link>
