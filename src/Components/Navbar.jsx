@@ -33,7 +33,8 @@ function Navbar() {
               className="text-white px-4 block hover:text-[#FFAAAA]
                transition-colors duration-200 flex items-center gap-2"
             >
-              <IoHome className="md:hidden" /> Home
+              <IoHome className="md:hidden" />
+               Home
             </Link>
           </li>
 

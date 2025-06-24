@@ -25,7 +25,7 @@ function RecipeDetail() {
       {!recipe ? (
         <div className="text-center mt-12">
           <div className="loader"></div>
-          <p>Loading...</p>
+          <p>Loading....</p>
         </div>
       ) : (
         <div className="recipe-detail-container p-6 text-center">

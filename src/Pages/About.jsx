@@ -11,7 +11,7 @@ function About (){
     text-gray-700 leading-relaxed">
     Welcome to <span className="font-bold text-[#9B177E]"> Crispy Craze!  </span>
      your go to place for discovering tasty and easy to make chicken dishes!
-      Whether you're a beginner or a kitchen pro, our recipes bring joy
+      Whether you are a beginner or a kitchen pro, our recipes bring joy
        and flavor to every meal.
   </p>
   
