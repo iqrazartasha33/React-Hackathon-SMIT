@@ -83,7 +83,7 @@ body {
 
 .recipe-detail-container h1 {
   font-size: 2rem;
-  color: #333;
+  color: #555;
   margin-bottom: 10px;
 }
 
@@ -112,3 +112,4 @@ body {
     transform: rotate(360deg);
   }
 }
+

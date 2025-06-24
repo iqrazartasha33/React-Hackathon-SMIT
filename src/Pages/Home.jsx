@@ -16,24 +16,26 @@ function Home() {
   }, []);
 
   return (
- 
+ <>
     <div className="recipe-container">
-<h1 className="text-center text-[#9B177E] mt-16 mb-5 text-3xl
- font-bold capitalize tracking-wide"> Crispy Craze!
-</h1>
-  <ul className="recipe-list">
+  <h1 className="text-center text-[#9B177E] 
+    mt-16 mb-5 text-3xl
+   font-bold capitalize tracking-wide">Crispy Craze!
+    </h1>
+   <ul className="recipe-list">
     {store?.map((item) => (
       <li key={item.idMeal}>
         <Link to={`/RecipeDetail/${item.idMeal}`}>
           <img src={item.strMealThumb} alt={item.strMeal} />
-          <h2>{item.strMeal}</h2>
-          <p>{item.strInstructions?.slice(0, 200)}...</p>
+       <h2 style={{ fontSize: "20px", fontWeight: "bold", color: "#555" }}>
+            {item.strMeal}</h2>
+          <p>{item.strInstructions?.slice(0, 100)}...</p>
         </Link>
       </li>
     ))}
   </ul>
 </div>
-
+</>
   );
 }
 
